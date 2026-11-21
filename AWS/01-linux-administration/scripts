@@ -1,1 +1,5 @@
+create a EC2 instance of linux (ubuntu) on a AWS . and access it on a terminal with these two commands/
+chmod 400 ~/foldername/mylinux.pem (folder name means where you download the .pem file of the instance and locate that file .
+ssh -i ~/foldername/mylinux.pem ubuntu@ pubic ip .
+now you can administrate the your linux instance through your ipaddress on your terminal 
 
